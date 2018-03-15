@@ -1,0 +1,3 @@
+class ClfController < ApplicationController
+
+end

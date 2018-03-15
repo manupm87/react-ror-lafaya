@@ -1,3 +1,0 @@
-class SampleController < ApplicationController
-
-end
