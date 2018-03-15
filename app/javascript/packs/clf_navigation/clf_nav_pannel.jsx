@@ -7,9 +7,12 @@ export default class CLF_Nav_Pannel extends React.Component {
   render() {
     return (
       <ul className="nav flex-column">
-        <CLF_Nav_Item name="Sara" />
-        <CLF_Nav_Item name="Cahal" />
-        <CLF_Nav_Item name="Edite" />
+        <CLF_Nav_Item name="Inicio" />
+        <CLF_Nav_Item name="Galería" />
+        <CLF_Nav_Item name="Disponibilidad" />
+        <CLF_Nav_Item name="Precios" />
+        <CLF_Nav_Item name="Cómo llegar" />
+        <CLF_Nav_Item name="Contacto" />
       </ul>
     );
   }
