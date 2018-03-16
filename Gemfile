@@ -33,9 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'webpacker', '~> 3.3'
+gem 'webpacker'
 
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 
