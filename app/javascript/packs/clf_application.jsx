@@ -9,16 +9,16 @@ import CLF_Details from './clf_details/clf_details.jsx'
 class CLF_Application extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid d-flex flex-column" id="clf-app">
         <CLF_Nav_Brand />
-        <div className="row">
+        <div className="row d-flex fill">
           <div className="col-2">
             <CLF_Nav_Pannel />
           </div>
-          <div className="col">
+          <div className="col d-flex">
             <CLF_Start />
           </div>
-          <div className="col-2">
+          <div className="col-2 d-flex">
             <CLF_Details />
           </div>
         </div>

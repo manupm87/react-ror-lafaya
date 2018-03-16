@@ -7,9 +7,9 @@ import CLF_Description from './clf_description'
 export default class CLF_Start extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="d-flex flex-column">
 
-        <div>
+        <div className="fill">
           <CLF_Image_Slider />
         </div>
         <div>

@@ -1,3 +1,22 @@
+html, body, body > div, #clf-app {
+  height: 100%
+}
 body {
   background: lightblue url("/assets/background.jpg") no-repeat fixed center;
+}
+
+.fill {
+  flex: 1;
+}
+
+.image-slider {
+  /*height: 200px;*/
+}
+
+.clf-detail {
+  flex: 1 1 auto;
+}
+
+.clf-detail object {
+  flex: 1 1 auto;
 }

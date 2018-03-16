@@ -6,7 +6,7 @@ import CLF_Detail from './clf_detail.jsx'
 export default class CLF_Details extends React.Component {
   render() {
     return (
-      <div>
+      <div className="d-flex flex-column fill">
         <CLF_Detail name="house"/>
         <CLF_Detail name="people"/>
         <CLF_Detail name="bedrooms"/>
