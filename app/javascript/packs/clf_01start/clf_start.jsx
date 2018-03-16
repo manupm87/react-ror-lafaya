@@ -9,12 +9,9 @@ export default class CLF_Start extends React.Component {
     return (
       <div className="d-flex flex-column">
 
-        <div className="fill">
-          <CLF_Image_Slider />
-        </div>
-        <div>
-          <CLF_Description />
-        </div>
+        <CLF_Image_Slider />
+
+        <CLF_Description />
 
       </div>
     );

@@ -9,8 +9,14 @@ body {
   flex: 1;
 }
 
-.image-slider {
-  /*height: 200px;*/
+.clf-image-gallery {
+  overflow: hidden;
+}
+.clf-image-gallery * {
+  max-height: 100%;
+  display: flex;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0)!important;
 }
 
 .clf-detail {
