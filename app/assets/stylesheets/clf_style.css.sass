@@ -1,0 +1,48 @@
+html, body, body > div, #clf-app
+  height: 100%
+
+body
+  background: lightblue url("/assets/background.jpg") no-repeat fixed center
+
+
+.fill
+  flex: 1 1 auto
+
+
+.clf-image-gallery
+  overflow: hidden
+
+.clf-image-gallery *
+  max-height: 100%
+  display: flex
+  object-fit: contain
+  background: rgba(255, 255, 255, 0)!important
+
+.clf-detail-label
+  color: #aeb2b4
+  text-transform: capitalize
+  text-align: center
+  font-size: 16px
+  font-weight: bold
+  line-height: 2
+
+.clf-detail-value
+  text-align: center
+  font-size: 22px
+  font-weight: 300
+  line-height: 2
+
+.clf-description
+  padding-top: 50px
+  text-align: justify
+  column-count: 2
+  column-fill: balance
+  column-gap: 50px
+  column-rule-style: ridge
+  column-rule-width: thin
+
+footer
+  text-align: center
+  margin-top: 50px
+  padding-top: 20px
+  padding-bottom: 20px
