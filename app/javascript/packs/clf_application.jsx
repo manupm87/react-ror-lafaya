@@ -8,13 +8,22 @@ import CLF_Details from './clf_details/clf_details.jsx'
 import CLF_Footer from './clf_footer/clf_footer.jsx'
 
 class CLF_Application extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {page: "start"};
+  }
+
+  setActive = (page) => {
+    this.setState({page: page})
+  }
+
   render() {
     return (
       <div className="container d-flex flex-column" id="clf-app">
         <CLF_Nav_Brand />
         <div className="row d-flex fill">
           <div className="col-2">
-            <CLF_Nav_Pannel />
+            <CLF_Nav_Pannel active={this.state.page} setActive={this.setActive}/>
           </div>
           <div className="col d-flex">
             <CLF_Start />

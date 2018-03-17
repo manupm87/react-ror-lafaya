@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 export default class CLF_Detail extends React.Component {
   render() {
     return (
-      <div className="d-flex flex-column">
+      <div className="d-flex flex-column clf-detail">
         <div className="d-flex">
           <object className="fill" data={"/assets/svg/" + this.props.svg + ".svg"} type="image/svg+xml" />
         </div>
