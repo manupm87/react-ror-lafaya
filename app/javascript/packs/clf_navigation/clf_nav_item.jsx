@@ -10,7 +10,7 @@ export default class CLF_Nav_Item extends React.Component {
 
   handleClick = (e) => {
     e.preventDefault();
-    console.log('Click' + this.state.id);
+    // console.log('Click ' + this.state.id);
     this.props.setActive(this.state.id);
   }
 
@@ -18,8 +18,7 @@ export default class CLF_Nav_Item extends React.Component {
     return (
       <li className={"nav-item clf-nav-item " + (this.props.active ? "clf-nav-item-active" : "")}
         onClick={this.handleClick}>
-        <span className="nav-link" href="">{this.props.name}</span>
-        {/*this.props.active ? <hr/> : ""*/}
+        <span className="nav-link">{this.props.name}</span>
       </li>
     );
   }

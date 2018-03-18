@@ -7,16 +7,28 @@ export default class CLF_Image_Slider extends React.Component {
   render() {
     const images = [
       {
-        original: '/assets/entrada-derecha.jpg',
-        thumbnail: '/assets/entrada-derecha.jpg',
+        original: '/assets/entrada-derecha.png',
+        thumbnail: '/assets/entrada-derecha.png',
       },
       {
-        original: '/assets/entrada.jpg',
-        thumbnail: '/assets/entrada.jpg'
+        original: '/assets/entrada.png',
+        thumbnail: '/assets/entrada.png'
       },
       {
-        original: '/assets/picos-europa.jpg',
-        thumbnail: '/assets/picos-europa.jpg'
+        original: '/assets/esquina-atras-derecha.png',
+        thumbnail: '/assets/esquina-atras-derecha.png'
+      },
+      {
+        original: '/assets/lateral-derecha.png',
+        thumbnail: '/assets/lateral-derecha.png'
+      },
+      {
+        original: '/assets/lateral-limonero.png',
+        thumbnail: '/assets/lateral-limonero.png'
+      },
+      {
+        original: '/assets/picos-europa.png',
+        thumbnail: '/assets/picos-europa.png'
       }
     ]
 
