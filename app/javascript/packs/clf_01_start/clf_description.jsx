@@ -6,6 +6,8 @@ export default class CLF_Description extends React.Component {
   render() {
     return (
       <div className="clf-description">
+      <span className="clf-description-title">Casa La Faya</span>
+      <div className="clf-description-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
           posuere quam. Praesent a augue dolor. Duis suscipit vitae massa in
@@ -21,6 +23,7 @@ export default class CLF_Description extends React.Component {
           et, eleifend ultrices quam.
         </p>
 
+      </div>
       </div>
     );
   }

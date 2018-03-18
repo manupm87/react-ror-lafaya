@@ -15,7 +15,7 @@ export default class CLF_Nav_Brand extends React.Component {
           <div className="navbar-brand clf-brand" onClick={this.handleClick}>
             <img src="/assets/logo-big.png" height="60" alt="" />
           </div>
-          <span className="navbar-brand mb-0 h1">Casa La Faya</span>
+          <span className="navbar-brand mb-0 h1 clf-brand-name">Casa La Faya</span>
         </nav>
       </header>
     );
