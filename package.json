@@ -6,8 +6,10 @@
     "babel-preset-react": "^6.24.1",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.2.0",
-    "react-image-gallery": "^0.8.7"
+    "react-image-gallery": "^0.8.7",
+    "react-infinite-calendar": "^2.3.1"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"
